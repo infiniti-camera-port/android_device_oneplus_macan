@@ -74,3 +74,6 @@ $(call inherit-product, device/oneplus/sm8850-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/macan/macan-vendor.mk)
+
+# Camera (Oplus camera port)
+$(call inherit-product, vendor/oneplus/camera-macan/camera-macan.mk)
